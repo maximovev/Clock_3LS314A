@@ -1,0 +1,157 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9444021c-537d-4d18-b18b-a1bfb8642f32")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569eb65a-f04d-4653-836d-fa1270006fc5")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf1fe16-f82e-4f4d-bf69-4f1552583e74")
+	)
+	(sheet
+		(at 152.4 86.36)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "550ae49f-d25d-4cf7-816a-70e5962a1b3a")
+		(property "Sheetname" "MCU"
+			(at 152.4 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_328PMM.kicad_sch"
+			(at 152.4 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_GND" input
+			(at 152.4 91.44 180)
+			(uuid "6fe24f58-80a4-4ef5-8e0c-deea0a6bfaa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_VDD" input
+			(at 152.4 88.9 180)
+			(uuid "232528b2-41ec-4630-8293-a1df46bc99cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Clock_3LS314A_Atmega328P"
+				(path "/9444021c-537d-4d18-b18b-a1bfb8642f32"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 86.36)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a8ff33b-ae17-44a1-87e2-d267602bb9c0")
+		(property "Sheetname" "BAT"
+			(at 132.08 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BAT_TP4056.kicad_sch"
+			(at 124.46 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT_GND" input
+			(at 144.78 91.44 0)
+			(uuid "fd009838-94c9-4cf4-be48-fdf2e6c2256f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_VDD" input
+			(at 144.78 88.9 0)
+			(uuid "3345fdf6-9f78-4a57-aecb-0490d8bd560d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Clock_3LS314A_Atmega328P"
+				(path "/9444021c-537d-4d18-b18b-a1bfb8642f32"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
